@@ -1,0 +1,140 @@
+/* KATARINA'S PERSONAL WEBSITE*/
+
+/*MAIN PAGE*/
+
+body{
+  background-color: #FAF7F3;
+  color: #52677B;
+  font-family: Arial, sans-serif;
+  margin: 25px;
+}
+
+/*HEADER*/
+
+.header{
+  background-color: #F2E5E8;
+  text-align: center;
+  padding: 45px 20px;
+  border-radius: 25px;
+}
+
+.small-title{
+  color: #A77C89;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+h1{
+  font-family: Georgia, serif;
+  color: #243B55;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.welcome{
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 19px;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid #C4A77D;
+  margin: 25px 0;
+}
+
+/*NAVIGATION*/
+
+.navigation{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.navigation a{
+  color: #243B55
+  text-decoration: none;
+  margin: 12px;
+  font-size: 15px;
+}
+
+.navigation a:hover{
+  color: #A77C89;
+  text-decoration: underline;
+}
+
+/*CONTENT CARDS*/
+
+.section{
+  background-color: white;
+  padding: 30px;
+  margin: 25px auto;
+  border-radius: 20px;
+  max-width: 850px;
+}
+
+#education{
+  background-color: #E9EDF3;
+}
+
+#gallery{
+  background-color: #F2E5E8;
+}
+
+.section-number{
+  color: #B48592;
+  font-size: 12px
+  letter-spacing: 2px;
+}
+
+h2{
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #243B55
+}
+
+h3{
+  color: #243B55;
+  font-size: 19px;
+}
+
+.section p{
+  line-height: 1.8;
+}
+
+/*PHOTO GALERY*/
+
+.gallery{
+  text-align: center;
+}
+
+.photo{
+  display: inline-block;
+  width: 42%;
+  margin: 2%;
+  vertical-align: top;
+  background-color: white;
+  padding: 10px;
+  border-radisu: 15px;
+}
+
+.photo{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photo p{
+  color: #243B55;
+  font-size: 15px;
+}
+
+/*FOOTER*/
+
+.footer{
+  text-align: center;
+  color: #A77C89;
+  font-size: 13px;
+  padding: 25px;
+}
