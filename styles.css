@@ -106,28 +106,29 @@ h3{
 
 .gallery{
   display: grid;
-  gird-template-columns: respead (3, 1fr);
-  gap:15px;
-  margin-top: 25px;
+  grid-template-columns: repear(3, 1fr);
+  gap: 15px;
+}
+
+.photo{ 
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 0;
 }
 
 .photo img{
   width: 100%;
   height: 150px;
   object-fit: cover;
-  diplay-radius: 10px;
+  display: block;
+  border-radius: 10px;
 }
 
 .photo p{
   color: #243B55;
   font-size: 14px;
-  margin: 10px 0;
-}
-
-@media (max-width: 600px) {
-  .gallery{
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 /*FOOTER*/
