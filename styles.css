@@ -111,13 +111,13 @@ h3{
 .gallery{
   display: flex;
   flex-wrap: wrap;
-  justify-context: center;
+  justify-content: center;
   gap: 15px;
   margin-top: 25px;
 }
 
 .photo{
-  width: calc((100% - 30pm) /3);
+  width: calc((100% - 30px) /3);
   box-sizing: border-box;
   background-color: white;
   padding: 10px;
@@ -129,7 +129,7 @@ h3{
   width: 100%;
   height: 150px;
   object-fit: cover; 
-  diplay: block;
+  display: block;
   border-radius: 10px;
 }
 
